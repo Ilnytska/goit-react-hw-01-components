@@ -1,0 +1,27 @@
+.transactionHistory{
+    width: 360px;
+    border-radius: 5px;
+    border: 1px solid grey;
+  background: #fff;
+  border-collapse: collapse;
+  margin: 20px auto;
+ 
+
+}
+ th {
+    border: 1px solid grey;
+    background-color: aqua;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px 0 10px 0;
+  }
+  td {
+    border: 1px solid grey;
+    font-weight: 300;
+    font-size: 13px;
+    padding: 10px 5px 10px 5px;
+  }
+  tr:nth-child(odd) {
+  background-color: rgb(237, 233, 233);
+}
